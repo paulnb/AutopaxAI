@@ -4,6 +4,8 @@ export interface LeadFormData {
   phone: string;
   company?: string;
   industry: IndustryType;
+  message?: string;
+  source?: string;
 }
 
 export enum IndustryType {

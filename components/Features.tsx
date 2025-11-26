@@ -1,42 +1,42 @@
 import React from 'react';
-import { Bot, GitBranch, Calendar, Lock, BarChart3, Smartphone } from 'lucide-react';
+import { Phone, BarChart3, FileText, Rocket, MessageSquare, Heart } from 'lucide-react';
 
 const features = [
   {
-    title: "Autonomous Voice Agents",
-    description: "Agents that sound indistinguishable from humans. They pause, listen, and handle interruptions naturally.",
-    icon: Bot,
+    title: "Autonomous Voice Agent",
+    description: "Natural, human-like voice AI that handles inbound/outbound calls, schedules appointments, and qualifies leads 24/7 without latency.",
+    icon: Phone,
     color: "text-brand-400"
   },
   {
-    title: "Smart Workflows",
-    description: "Connects seamlessly with your CRM. Lead triggers form submission -> Call initiated -> CRM updated.",
-    icon: GitBranch,
-    color: "text-blue-400"
+    title: "Intelligent Sales Agent",
+    description: "Automates your CRM pipeline. Triggers intelligent follow-ups, manages scheduling, and re-engages dead leads automatically.",
+    icon: BarChart3,
+    color: "text-orange-400"
   },
   {
-    title: "Instant Scheduling",
-    description: "The AI accesses your calendar in real-time to book appointments while on the call with the client.",
-    icon: Calendar,
+    title: "Proposal Generator",
+    description: "Turns sales calls into closed deals. Listens to conversation transcripts and generates production-ready slide decks and proposals in seconds.",
+    icon: FileText,
     color: "text-purple-400"
   },
   {
-    title: "Scam & Fraud Filter",
-    description: "Advanced verification logic to identify bots and scammers, saving your team valuable time.",
-    icon: Lock,
-    color: "text-red-400"
-  },
-  {
-    title: "Analytics & Insights",
-    description: "Get detailed transcripts, sentiment analysis, and call success metrics immediately after hang-up.",
-    icon: BarChart3,
-    color: "text-yellow-400"
-  },
-  {
-    title: "Industry Specific",
-    description: "Pre-trained models for Retail, HVAC, Real Estate, Restaurants, and Accounting firms.",
-    icon: Smartphone,
+    title: "Client Onboarding Agent",
+    description: "Zero-friction starts. Automatically sends contracts, provisions Google Drive folders, and deploys welcome assets immediately upon signing.",
+    icon: Rocket,
     color: "text-green-400"
+  },
+  {
+    title: "SMS & Text Agent",
+    description: "Engage customers where they pay attention. Instant text responses, appointment reminders, and personalized marketing campaigns at scale.",
+    icon: MessageSquare,
+    color: "text-blue-400"
+  },
+  {
+    title: "Assistance, Not Replacement",
+    description: "We believe in AI as a tool to empower people. We automate the busy work so your human team can focus on strategy and relationships.",
+    icon: Heart,
+    color: "text-red-400"
   }
 ];
 
@@ -46,10 +46,10 @@ const Features: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            More Than Just a <span className="text-brand-400">Phone Call</span>
+            Our Ecosystem of <span className="text-brand-400">Intelligent Agents</span>
           </h2>
           <p className="text-slate-400 max-w-2xl mx-auto">
-            Our robust infrastructure handles the entire lifecycle of a voice interaction, from trigger to settlement.
+            A comprehensive suite of intelligent automations designed to handle every stage of your business lifecycle.
           </p>
         </div>
 

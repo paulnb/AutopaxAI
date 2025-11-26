@@ -12,7 +12,8 @@ export const submitLeadForm = async (data: LeadFormData): Promise<WebhookRespons
       body: JSON.stringify({
         ...data,
         timestamp: new Date().toISOString(),
-        source: 'website_demo_form'
+        // Use the source provided in data, or default to generic
+        source: data.source || 'website_form_submission'
       }),
     });
 

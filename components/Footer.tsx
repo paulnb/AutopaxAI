@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
                 <Zap className="h-5 w-5 text-white" />
               </div>
               <span className="font-bold text-xl text-white">
-                AutoPax<span className="text-brand-400">.AI</span>
+                coepi<span className="text-brand-400">.co</span>
               </span>
             </div>
             <p className="text-slate-400 text-sm leading-relaxed max-w-sm">
@@ -43,7 +43,7 @@ const Footer: React.FC = () => {
 
         <div className="border-t border-slate-900 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-slate-500 text-sm">
-            &copy; {new Date().getFullYear()} AutoPax AI Solutions. All rights reserved.
+            &copy; {new Date().getFullYear()} coepi.co. All rights reserved.
           </p>
           <div className="flex space-x-6">
             <a href="#" className="text-slate-500 hover:text-white transition-colors">
